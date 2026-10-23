@@ -29,7 +29,7 @@ Platform: PC
 
 
 
- Aim: To demonstrate overloading and overriding in python.
+Aim: To demonstrate overloading and overriding in python.
 Algorithm:
 Start.
 Define a class Vehicle with a method start() that displays "Vehicle is starting".
