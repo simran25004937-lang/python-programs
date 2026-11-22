@@ -1,4 +1,6 @@
+Aim:Implementation of NumPy, Pandas and Matplotlib in Python
 
+Code:
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -55,3 +57,30 @@ plt.show()
 plt.pie(df['Salary'], labels=df['Name'], autopct='%1.1f%%')
 plt.title("Employee Salary - Pie Chart")
 plt.show()
+
+Output:
+NumPy Array:
+[10 20 30 40 50]
+
+Sum: 150
+Mean: 30.0
+Maximum: 50
+Minimum: 10
+
+Pandas DataFrame:
+     Name  Age  Salary
+0  Simran   19   25000
+1   Rahul   20   30000
+2   Priya   21   28000
+3    Aman   22   35000
+4    Riya   23   40000
+
+First 3 Records:
+     Name  Age  Salary
+0  Simran   19   25000
+1   Rahul   20   30000
+2   Priya   21   28000
+
+Average Salary: 31600.0
+
+Result:Thus, NumPy, Pandas and Matplotlib libraries were successfully implemented in a single Python program.
