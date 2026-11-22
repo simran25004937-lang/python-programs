@@ -1,3 +1,8 @@
+Aim:To write a Python program to implement the re (Regular Expression) module.
+
+Algorithm:
+  
+Code:
 import re
 
 text = "Python is easy. Python is powerful."
@@ -16,3 +21,13 @@ print("Split:", re.split(" ", text))
 
 # Match
 print("Match:", re.match("Python", text).group())
+
+
+Output:
+Search: Python
+Find All: ['Python', 'Python']
+Replace: Java programming is easy. Java is powerful.
+Split: ['Python', 'programming', 'is', 'easy.', 'Python', 'is', 'powerful.']
+Match: Python
+
+Result: Result: Thus, the re module functions such as search(), findall(), sub(), split() and match() were implemented successfully in Python.
